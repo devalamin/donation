@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+#banner {
+    background: url(../images/donation13.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.banner_text {
+    padding: 200px 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: #fff;
+}
+
+.banner_text h1 {
+    font-size: 70px;
+}
+
+.banner_text p {
+    text-align: center;
+    width: 600px;
+    margin: 20px 0;
+}
+
+.banner_text a {
+    color: #fff;
+    font-weight: 600;
+    font-size: 20px;
+    text-decoration: none;
+    background: tomato;
+    padding: 15px 40px;
+    border-radius: 7px;
+}
+
+#donate {
+    margin-top: 120px;
+    margin-bottom: 200px;
+}
+
+#donate .text {
+    text-align: center;
+}
+
+#donate .text h1 {
+    margin-bottom: 20px;
+    font-size: 40px;
+}
+
+#donate .text p {
+    font-size: 18px;
+    color: gray;
+    margin: 0 auto;
+    width: 600px;
+}
+
+#donate .money {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    padding: 30px;
+}
+
+#donate .money .amount {
+    color: gray;
+    font-size: 30px;
+    text-align: center;
+    padding: 40px 5px;
+    background: rgb(255, 244, 244);
+    margin: 0 10px;
+    width: 10%;
+    border-radius: 5px;
+}
+
+#donate .money .color {
+    color: tomato;
+    background: rgb(249, 224, 224);
+    border: 3px solid tomato;
+
+}
+
+#donate input {
+    display: block;
+    height: 50px;
+    width: 60%;
+    margin: 0 auto;
+    border: 0;
+    border-bottom: 3px solid rgb(227, 224, 224);
+
+
+}
+
+#donate input::placeholder {
+    font-size: 20px;
+    text-align: center;
+}
+
+#donate .link {
+    text-align: center;
+    margin-top: 50px;
+}
+
+#donate .link a {
+    color: #fff;
+    font-weight: 600;
+    font-size: 20px;
+    text-decoration: none;
+    background: tomato;
+    padding: 15px 40px;
+    border-radius: 7px;
+}
