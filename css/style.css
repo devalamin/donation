@@ -48,7 +48,7 @@ body {
 
 #donate {
     margin-top: 120px;
-    margin-bottom: 200px;
+    margin-bottom: 100px;
 }
 
 #donate .text {
@@ -122,4 +122,52 @@ body {
     background: tomato;
     padding: 15px 40px;
     border-radius: 7px;
+}
+
+#plan .title {
+
+    text-align: center;
+}
+
+#plan .title h1 {
+    font-size: 40px;
+    margin: 20px 0;
+}
+
+#plan .title p {
+    margin: 0 auto;
+    width: 750px;
+    color: grey;
+}
+
+#plan .parent {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+
+#plan .parent .child {
+    background: rgb(213, 251, 255);
+    padding: 60px 30px;
+    width: 20%;
+    margin: 0px 10px;
+    border-radius: 5px;
+
+}
+
+#plan .parent .child h1 {
+    margin: 20px 0;
+}
+
+#plan .parent .child p {
+    color: gray;
+}
+
+#plan .parent .pink {
+    background: rgb(219, 215, 216);
+}
+
+#plan .parent .yellow {
+    background: rgb(218, 231, 193);
 }
